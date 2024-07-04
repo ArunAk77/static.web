@@ -29,28 +29,36 @@
        #name{
         float: right;
         color: black;
-        padding: 10px;
+        margin-left: 20px;
+        padding: 5px;
        }
        #align{
         margin-left: 120px;
        }
-       #button{
-        margin: 20px;
+       #buttons{
+        margin: 30px;
         border: 0px;
-        padding: 6px;
+        padding: 10px;
+       }
+       button{
+        color: rgb(0, 0, 0);
+       }
+       button:hover{
+        color: rgb(255, 0, 0);
+        padding: 10px;
        }
 }
     </style>
 </head>
 <body>
-    <h1 style="padding-left: 40%; color: rgb(0, 0, 0);">FORM FIELDS</h1>
+    <h1 style="padding-left: 40%; color: rgb(0, 0, 0);"><b>FORM FIELDS</b></h1>
     <div id="fir">
     <form>
-        <b><label style="color: white;font-size: 20px;">NAME</label></b>
+        <b><label  style="color: white;font-size: 20px;">NAME</label></b>
         <input id="name"placeholder="NAME"><br><br><br><br>
         <b><label style="color: white;font-size: 20px">ROLL NO</label></b>
         <input id="name"placeholder="ROLL NO"><br><br><br><br>
-        <b></b><label style="color: white;font-size: 20px">DEPT</label></b>
+        <b></b><label style="color: white;font-size: 20px">DEPTARTMENT</label></b>
         <select id="name" style="width: 185px;">
             <option id="name">AUTO</option>
             <option id="name">ECE</option>
@@ -58,14 +66,14 @@
             <option id="name">IT</option>
             <option id="name">AERO</option>
         </select><br><br><br><br>
-        <b><label style="color: white;font-size: 20px">SSLC PERCENTAGE</label></b>
+        <b><label style="color: white;font-size: 20px">SSLC <b>%</b></label></b>
         <input id="name" placeholder="%"><br><br><br><br>
-        <b><label style="color: white;font-size: 20px">HSC PERCENTAGE</label></b>
+        <b><label style="color: white;font-size: 20px">HSC <b>%</b></label></b>
         <input id="name" placeholder="%"><br><br><br><br>
-        <b><label style="color: white;font-size: 20px;">DEGREE PERCENTAGE</label></b>
+        <b><label style="color: white;font-size: 20px;">DEGREE <b>%</b></label></b>
         <input id="name" placeholder="%"><br><br><br><br>
         <div id="align">
-        <button id="button" >SUBMIT</button>
+        <button id="buttons" >SUBMIT</button>
         </div>
     </form>
 </div>
